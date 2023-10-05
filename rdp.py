@@ -34,7 +34,7 @@ os.system("""
 sudo DEBIAN_FRONTEND=noninteractive \
     apt install --assume-yes xfce4 desktop-base dbus-x11 xscreensaver""")
     
-with open("file.txt", "r") at file:
+with open("file.txt", "r") as file:
     os.system(f"file.read()")
     
 os.system("sudo systemctl disable lightdm.service")
